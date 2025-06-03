@@ -13,10 +13,10 @@ class Vehicle {
     public Vehicle() {}
 
     public double estimatedValue() {
-        double baseValue = 3000;
+        double Value = 3000;
         int currentYear = 2025;
         int age = currentYear - year;
-        return baseValue - (age * 1000 + mile * 0.1);
+        return Value - (age * 1000 + mile * 0.1);
     }
 
     public void addServiceRecord(String record) {
